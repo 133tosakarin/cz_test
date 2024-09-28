@@ -5,6 +5,17 @@
 
 2. Two versions have been implemented: one using simple read-write locks, and the other considering a transactional approach, but neither has implemented deadlock detection yet.
 
+### How to build
+
+`git clone https://github.com/133tosakarin/cz_test`
+
+`cd cz_tet`
+
+
+`mkdir build && cd build`
+
+
+`make`
 
 For simple_test:
   Use a shared_lock for all elements in the array so that the entire array does not need to be locked.
