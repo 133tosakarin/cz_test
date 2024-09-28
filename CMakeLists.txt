@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.10)
 project(MyProject)
 
 # 设置 C++ 标准
-set(CMAKE_CXX_STANDARD 23)
+set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
 set(SOURCE_DIR ${CMAKE_SOURCE_DIR}/src/include)
 message("source_dir is: ${SOURCE_DIR}")
