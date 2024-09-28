@@ -7,9 +7,9 @@ set(TEST_SOURCES
 message("TEST_SOURCES: ${TEST_SOURCES}")
 
 # 创建可执行文件
-add_executable(run_tests ${TEST_SOURCES})
-add_executable(run_test2 tt.cc)
+add_executable(with_txn_test ${TEST_SOURCES})
+add_executable(simple_test tt.cc)
 
 # 链接库
-target_link_libraries(run_tests concurrency)
+target_link_libraries(with_txn_test concurrency)
 
